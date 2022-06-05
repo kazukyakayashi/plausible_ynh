@@ -5,16 +5,16 @@
     "packaging_format": 1,
     "description": {
         "en": "Plausible is a lightweight and open-source website analytics tool.",
-        "fr": "Un outil d&#39;analytiques léger et open-source."
+        "fr": "Un outil d'analytiques léger et open-source."
     },
-    "version": "1.0",
+    "version": "1.4.4",
     "license": "AGPL-3.0",
     "maintainer": {
         "name": "Gildas GH",
         "email": "gildas@becauseofprog.fr"
     },
     "requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 4.3.6"
     },
     "services": [
         "nginx"
