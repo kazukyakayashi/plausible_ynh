@@ -29,7 +29,7 @@ dockerapp_ynh_checkinstalldocker () {
 		# install
 		curl -sSL https://get.docker.com | sh
 		systemctl enable docker
-		curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+		curl -L https://github.com/docker/compose/releases/download/2.6.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 		#for d in overlay2 overlay devicemapper aufs vfs
 		#do
